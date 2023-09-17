@@ -1,5 +1,7 @@
 {
 	"My text": "Мій текст",
 	"Translate": "Переклад",
-	"Language": "Мова"
+	"Language": "Мова",
+  	"An unexpected error has occurred": "Виникла непередбачувана помилка",
+	"Refresh the page": "Оновити сторінку"
 }

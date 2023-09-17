@@ -1,5 +1,7 @@
 {
 	"My text": "My text",
 	"Translate": "Translate",
-	"Language": "Language"
+	"Language": "Language",
+  	"An unexpected error has occurred": "An unexpected error has occurred",
+	"Refresh the page": "Refresh the page"
 }
