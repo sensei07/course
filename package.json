@@ -69,6 +69,8 @@
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "webpack-bundle-analyzer": "^4.5.0",
-    "@types/webpack-bundle-analyzer": "^4.4.1"
+    "@types/webpack-bundle-analyzer": "^4.4.1",
+    "identity-obj-proxy": "^3.0.0",
+    "regenerator-runtime": "^0.13.9"
   }
 }

@@ -1,7 +1,4 @@
-/*
- * For a detailed explanation regarding each configuration property and type check, visit:
- * https://jestjs.io/docs/configuration
- */
+import path from 'path';
 
 export default {
     clearMocks: true,
@@ -20,11 +17,17 @@ export default {
         'json',
         'node',
     ],
+    moduleNameMapper: {
+        '\\.s?css$': 'identity-obj-proxy',
+        '\\.svg': path.resolve(__dirname, 'jestEmptyComponent.tsx'),
+    },
     testMatch: [
         // Find diff between Mac OS & Windows
         '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)',
     ],
     rootDir: '../../',
+    modulePaths: ['<rootDir>/src'],
+    setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
 
     // All imported modules in your tests should be mocked automatically
     // automock: false,
