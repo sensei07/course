@@ -1,20 +1,19 @@
-/* eslint no-undef: "off" */
-
 declare module '*.scss' {
-		interface IClassNames {
+	interface IClassNames {
 		[className: string]: string
 	}
 	const classNames: IClassNames;
-	export = classNames
+	export = classNames;
 }
 
+declare module '*.png';
+declare module '*.jpg';
+declare module '*.jpeg';
 declare module '*.svg' {
-	const content: React.FunctionComponent<React.SVGAttributes<SVGElement>>;
-	export default content;
-}
+	import React from 'react';
 
-declare module '*.png'
-declare module '*.jpg'
-declare module '*.jpeg'
+	const SVG: React.VFC<React.SVGProps<SVGSVGElement>>;
+	export default SVG;
+}
 
 declare const __IS_DEV__: boolean;

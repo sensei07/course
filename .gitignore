@@ -4,3 +4,4 @@ package-lock.json
 extractedTranslations
 settings.json
 .idea
+yarn.lock
