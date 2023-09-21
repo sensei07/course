@@ -13,7 +13,7 @@ export const BugButton = () => {
     return (
 
         <Button onClick={onThrow}>
-            throw error
+            1
         </Button>
     );
 };
