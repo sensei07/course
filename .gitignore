@@ -5,3 +5,4 @@ extractedTranslations
 settings.json
 .idea
 yarn.lock
+/storybook-static
