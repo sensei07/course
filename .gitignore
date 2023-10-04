@@ -6,3 +6,5 @@ settings.json
 .idea
 yarn.lock
 /storybook-static
+.loki/report.html
+.loki/report.json
