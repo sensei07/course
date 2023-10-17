@@ -20,7 +20,8 @@
     "test:ui:json": "node scripts/generate-visual-json-report.js",
     "test:ui:html": "reg-cli --from .loki/report.json --report .loki/report.html",
     "storybook": "start-storybook -p 6006 -c ./config/storybook",
-    "storybook:build": "build-storybook -c ./config/storybook"
+    "storybook:build": "build-storybook -c ./config/storybook",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -93,7 +94,8 @@
     "webpack-dev-server": "^4.7.4",
     "loki": "^0.28.1",
     "reg-cli": "^0.17.6",
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.0",
+    "husky": "^8.0.0"
   },
   "loki": {
     "configurations": {

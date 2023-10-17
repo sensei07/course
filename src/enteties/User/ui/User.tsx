@@ -7,6 +7,6 @@ interface UserProps {
 
 export const User = ({ className }: UserProps) => (
     <div className={classNames(cls.User, { }, [className])}>
-        User
+        1
     </div>
 );
