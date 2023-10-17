@@ -7,5 +7,6 @@
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
+  "users":{ "id": 1, "username": "andrii", "password": "qwerty123" },
   "profile": { "name": "typicode" }
 }

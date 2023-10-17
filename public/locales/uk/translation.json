@@ -7,5 +7,7 @@
 	"Main": "Головна",
 	"About": "Про",
   	"Country's code": "UA",
-	"Enter": "Ввійти"
+	"Enter": "Ввійти",
+	"Enter password": "Введіть пароль",
+	"Enter username": "Введіть ім'я користувача"
 }

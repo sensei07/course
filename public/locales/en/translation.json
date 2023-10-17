@@ -7,5 +7,7 @@
 	"Main": "Main",
 	"About": "About",
   	"Country's code": "EN",
-  	"Enter": "Enter"
+  	"Enter": "Enter",
+  	"Enter password": "Enter password",
+	"Enter username": "Enter username"
 }
