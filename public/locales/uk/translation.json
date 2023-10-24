@@ -9,5 +9,8 @@
   	"Country's code": "UA",
 	"Enter": "Ввійти",
 	"Enter password": "Введіть пароль",
-	"Enter username": "Введіть ім'я користувача"
+	"Enter username": "Введіть ім'я користувача",
+	"Authorization Form": "Форма авторизації",
+	"Incorrect login or password": "Неправильний логін або пароль"
+
 }

@@ -9,5 +9,8 @@
   	"Country's code": "EN",
   	"Enter": "Enter",
   	"Enter password": "Enter password",
-	"Enter username": "Enter username"
+	"Enter username": "Enter username",
+  	"Authorization Form": "Authorization Form",
+	"Incorrect login or password": "Incorrect login or password",
+	"Log out": "Log out"
 }
