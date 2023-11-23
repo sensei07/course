@@ -22,11 +22,16 @@ export function buildPlugins({
         }),
 
     ];
+
+    plugins.push(new BundleAnalyzerPlugin({
+        openAnalyzer: false,
+        excludeAssets: ['node_modules'],
+        statsOptions: {
+            exclude: /node_modules/,
+        },
+    }));
     if (isDev) {
         plugins.push(new webpack.HotModuleReplacementPlugin());
-        plugins.push(new BundleAnalyzerPlugin({
-            openAnalyzer: false,
-        }));
     }
 
     return plugins;
