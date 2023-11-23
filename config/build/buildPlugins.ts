@@ -20,18 +20,17 @@ export function buildPlugins({
         new webpack.DefinePlugin({
             __IS_DEV__: JSON.stringify(isDev),
         }),
-
     ];
 
-    plugins.push(new BundleAnalyzerPlugin({
-        openAnalyzer: false,
-        excludeAssets: ['node_modules'],
-        statsOptions: {
-            exclude: /node_modules/,
-        },
-    }));
     if (isDev) {
         plugins.push(new webpack.HotModuleReplacementPlugin());
+        plugins.push(new BundleAnalyzerPlugin({
+            openAnalyzer: false,
+            excludeAssets: ['node_modules'],
+            statsOptions: {
+                exclude: /node_modules/,
+            },
+        }));
     }
 
     return plugins;
