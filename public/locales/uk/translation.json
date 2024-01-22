@@ -11,6 +11,6 @@
 	"Enter password": "Введіть пароль",
 	"Enter username": "Введіть ім'я користувача",
 	"Authorization Form": "Форма авторизації",
-	"Incorrect login or password": "Неправильний логін або пароль"
-
+	"Incorrect login or password": "Неправильний логін або пароль",
+	"Log out": "Вийти"
 }
