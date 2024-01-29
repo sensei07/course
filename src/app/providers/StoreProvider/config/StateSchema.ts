@@ -6,7 +6,7 @@ import { ProfileSchema } from 'entities/Profile';
 import {
     AnyAction, EnhancedStore, Reducer, ReducersMapObject,
 } from '@reduxjs/toolkit';
-import { CombinedState } from 'redux';
+import { CombinedState, Dispatch } from 'redux';
 import { AxiosInstance } from 'axios';
 import { NavigateOptions, To } from 'react-router-dom';
 
@@ -32,10 +32,10 @@ export interface ReduxStoreWithManager extends EnhancedStore<StateSchema> {
 
 export interface ThunkExtraArg {
     api: AxiosInstance,
-    navigate: (to: To, options?: NavigateOptions) => void,
+    navigate?: (to: To, options?: NavigateOptions) => void,
 }
 
-export interface ThunkConfig<T>{
+export interface ThunkConfig<T> {
     rejectValue: T;
-    extra: ThunkExtraArg
+    extra: ThunkExtraArg;
 }
