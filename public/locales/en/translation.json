@@ -12,5 +12,7 @@
 	"Enter username": "Enter username",
   	"Authorization Form": "Authorization Form",
 	"Incorrect login or password": "Incorrect login or password",
-	"Log out": "Log out"
+	"Log out": "Log out",
+	"Currency": "Currency",
+	"Country": "Country"
 }

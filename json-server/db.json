@@ -1,19 +1,43 @@
 {
-    "posts": [
-        { "id": "1", "title": "json-server", "author": "typicode" },
-        { "id": "2", "title": "json-server", "author": "typicode" },
-        { "id": "3", "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [{ "id": "1", "body": "some comment", "postId": "1" }],
-    "users": [{ "id": "1", "username": "admin", "password": "123" }],
-    "profile": {
-        "firstName": "Andrii",
-        "lastName": "Tomkiv",
-        "age": "12",
-        "currency": "UAH",
-        "country": "Ukraine",
-        "city": "IF",
-        "username": "admin",
-        "avatar": "https://bit.ly/dan-abramov"
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "2",
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "3",
+      "title": "json-server",
+      "author": "typicode"
     }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
+    }
+  ],
+  "profile": {
+    "firstName": "Andrii",
+    "lastName": "Tomkiv",
+    "age": 23,
+    "currency": "UAH",
+    "country": "Ukraine",
+    "city": "IF",
+    "username": "admin",
+    "avatar": "https://w7.pngwing.com/pngs/244/76/png-transparent-avatar-male-man-person-profile-user-website-website-internet-icon-thumbnail.png"
+  }
 }
