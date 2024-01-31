@@ -9,5 +9,10 @@
   "Your username": "Ваш юзернейм",
   "City": "Місто",
   "Your age": "Ваш вік",
-  "Avatar": "Аватар"
+  "Avatar": "Аватар",
+  "Incorrect last name or username": "Неправильне прізвище або ім'я користувача",
+  "Incorrect age": "Неправильний вік",
+  "Incorrect country": "Неправильна країна",
+  "Server error while saving": "Помилка сервера під час збереження",
+  "No data": "Немає даних"
 }

@@ -9,5 +9,10 @@
   "Your username": "Your username",
   "City": "City",
   "Your age": "Your age",
-  "Avatar": "Avatar"
+  "Avatar": "Avatar",
+  "Incorrect last name or username": "Incorrect last name or username",
+  "Incorrect age": "Incorrect age",
+  "Incorrect country": "Incorrect country",
+  "Server error while saving": "Server error while saving",
+  "No data": "No data"
 }
