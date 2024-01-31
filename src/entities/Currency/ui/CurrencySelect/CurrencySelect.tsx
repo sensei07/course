@@ -30,17 +30,6 @@ export const CurrencySelect = memo(
             [onChange],
         );
 
-        // const props = {
-        //     className,
-        //     value,
-        //     defaultValue: t('Specify currency'),
-        //     label: t('Specify currency'),
-        //     items: options,
-        //     onChange: onChangeHandler,
-        //     readonly,
-        //     direction: 'top right' as const,
-        // };
-
         return (
             <Select
                 className={classNames('', {}, [className])}
