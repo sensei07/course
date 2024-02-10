@@ -6,7 +6,9 @@
 	"Refresh the page": "Refresh the page",
 	"Main": "Main",
 	"About": "About",
-  	"Country's code": "EN",
+	"Profile": "Profile",
+	"Articles": "Articles",
+	"Country's code": "EN",
   	"Enter": "Enter",
   	"Enter password": "Enter password",
 	"Enter username": "Enter username",
@@ -14,5 +16,5 @@
 	"Incorrect login or password": "Incorrect login or password",
 	"Log out": "Log out",
 	"Currency": "Currency",
-	"Country": "Country"
+	"Country": "Country",
 }
