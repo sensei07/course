@@ -24,6 +24,11 @@ const article: Article = {
     views: 1022,
     createdAt: '26.02.2022',
     type: [ArticleType.IT],
+    user: {
+        id: '1',
+        username: 'Andrii',
+        avatar: 'https://w7.pngwing.com/pngs/244/76/png-transparent-avatar-male-man-person-profile-user-website-website-internet-icon-thumbnail.png',
+    },
     blocks: [
         {
             id: '1',
