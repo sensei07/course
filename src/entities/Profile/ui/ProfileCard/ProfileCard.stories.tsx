@@ -13,28 +13,21 @@ export default {
     },
 } as ComponentMeta<typeof ProfileCard>;
 
-const Template: ComponentStory<typeof ProfileCard> = (args) => (
-    <ProfileCard {...args} />
-);
+const Template: ComponentStory<typeof ProfileCard> = (args) => <ProfileCard {...args} />;
 
-const primaryArgs = {
+export const Primary = Template.bind({});
+Primary.args = {
     data: {
         username: 'admin',
         age: 22,
         country: Country.Ukraine,
-        lastName: 'lastname',
-        firstName: 'firstname',
-        city: 'unknown',
+        lastname: 'andrii tv',
+        first: 'andrii',
+        city: 'city',
         currency: Currency.USD,
         avatar,
     },
 };
-
-export const Primary = Template.bind({});
-Primary.args = primaryArgs;
-
-export const PrimaryRedesigned = Template.bind({});
-PrimaryRedesigned.args = primaryArgs;
 
 export const withError = Template.bind({});
 withError.args = {
