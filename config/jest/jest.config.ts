@@ -33,6 +33,15 @@ export default {
     rootDir: '../../',
     modulePaths: ['<rootDir>/src'],
     setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
+    reporters: [
+        'default',
+        ['jest-html-reporters', {
+            publicPath: '<rootDir>/reports/unit',
+            filename: 'report.html',
+            openReporter: true,
+            inlineSource: true,
+        }],
+    ],
 
     // All imported modules in your tests should be mocked automatically
     // automock: false,
